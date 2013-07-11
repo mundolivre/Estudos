@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "winget", "winget\winget.vcxproj", "{4C79CB57-49AF-431D-B5AE-C720C14E21C1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MasterEvent", "WindowsEvents\MasterEvent\MasterEvent.vcxproj", "{02036B7E-6726-47B3-B059-DF483666C83C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ClientEvent", "WindowsEvents\ClientEvent\ClientEvent.vcxproj", "{8886109D-2B1D-4795-9896-750ABF1F592E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C79CB57-49AF-431D-B5AE-C720C14E21C1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4C79CB57-49AF-431D-B5AE-C720C14E21C1}.Debug|Win32.Build.0 = Debug|Win32
+		{4C79CB57-49AF-431D-B5AE-C720C14E21C1}.Release|Win32.ActiveCfg = Release|Win32
+		{4C79CB57-49AF-431D-B5AE-C720C14E21C1}.Release|Win32.Build.0 = Release|Win32
+		{02036B7E-6726-47B3-B059-DF483666C83C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{02036B7E-6726-47B3-B059-DF483666C83C}.Debug|Win32.Build.0 = Debug|Win32
+		{02036B7E-6726-47B3-B059-DF483666C83C}.Release|Win32.ActiveCfg = Release|Win32
+		{02036B7E-6726-47B3-B059-DF483666C83C}.Release|Win32.Build.0 = Release|Win32
+		{8886109D-2B1D-4795-9896-750ABF1F592E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8886109D-2B1D-4795-9896-750ABF1F592E}.Debug|Win32.Build.0 = Debug|Win32
+		{8886109D-2B1D-4795-9896-750ABF1F592E}.Release|Win32.ActiveCfg = Release|Win32
+		{8886109D-2B1D-4795-9896-750ABF1F592E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
