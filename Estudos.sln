@@ -7,6 +7,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MasterEvent", "WindowsEvent
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ClientEvent", "WindowsEvents\ClientEvent\ClientEvent.vcxproj", "{8886109D-2B1D-4795-9896-750ABF1F592E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CriticalMutex", "CriticalMutex\CriticalMutex.vcxproj", "{7E5ED9B1-9B77-4D56-8988-70000BE55F1F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UsingMutex", "UsingMutex\UsingMutex.vcxproj", "{EBEC2179-7634-4ACE-9145-519A92F482E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -25,6 +29,14 @@ Global
 		{8886109D-2B1D-4795-9896-750ABF1F592E}.Debug|Win32.Build.0 = Debug|Win32
 		{8886109D-2B1D-4795-9896-750ABF1F592E}.Release|Win32.ActiveCfg = Release|Win32
 		{8886109D-2B1D-4795-9896-750ABF1F592E}.Release|Win32.Build.0 = Release|Win32
+		{7E5ED9B1-9B77-4D56-8988-70000BE55F1F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7E5ED9B1-9B77-4D56-8988-70000BE55F1F}.Debug|Win32.Build.0 = Debug|Win32
+		{7E5ED9B1-9B77-4D56-8988-70000BE55F1F}.Release|Win32.ActiveCfg = Release|Win32
+		{7E5ED9B1-9B77-4D56-8988-70000BE55F1F}.Release|Win32.Build.0 = Release|Win32
+		{EBEC2179-7634-4ACE-9145-519A92F482E1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EBEC2179-7634-4ACE-9145-519A92F482E1}.Debug|Win32.Build.0 = Debug|Win32
+		{EBEC2179-7634-4ACE-9145-519A92F482E1}.Release|Win32.ActiveCfg = Release|Win32
+		{EBEC2179-7634-4ACE-9145-519A92F482E1}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
